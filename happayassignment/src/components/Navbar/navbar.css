@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.logo {
+  height: 3em;
+  padding: 1em;
+  will-change: filter;
+}
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logo.happay:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.heading {
+  font-size: 1.5em;
+  color: #1c7cbf;
+}
+
+.menuLogo {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.menuItem {
+  padding: 0 .5em;
+}
