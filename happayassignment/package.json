@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tabler/icons": "^1.117.0",
+    "easy-peasy": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
