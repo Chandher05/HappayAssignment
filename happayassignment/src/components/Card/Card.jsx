@@ -8,8 +8,8 @@ export default function Card({ id, name, description, final_price, original_pric
   const count = useStoreState((state) => state.cart[id] || 0);
 
   return (
-    <div className='box w-96 '>
-      <img src={img_url} alt={name} className="drop-shadow-lg"></img>
+    <div className='box w-full p-12 m-3'>
+      <img src={img_url} alt={name} className="drop-shadow-md"></img>
       <div className='flex justify-between p-4'>
         <p className='font-bold capitalize'>{name}</p>
         <div className='flex space-x-2'>

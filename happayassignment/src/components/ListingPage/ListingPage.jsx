@@ -12,12 +12,11 @@ export default function ListingPage() {
     <div className='m-3 p-4 justify-center'>
       <div className='flex justify-center'>
         <h4 className='font-bold text-2xl text-gray-800 antialiased'>Most Popular</h4>
-        {/* <Divider></Divider> */}
       </div>
-      <div className=''>
+      <div >
         <Divider></Divider>
       </div>
-      <div className='box m-7 w-full flex flex-wrap space-between gap-x-8 gap-y-6' >
+      <div className='box w-full grid grid-cols-3 gap-7 p-6' >
         {cards.map((card) => {
           return <Card key={card.id} {...card}></Card>
         })}
